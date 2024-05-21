@@ -9,3 +9,5 @@ vim.bo.softtabstop = 2
 opt.wrap = false
 
 opt.relativenumber = true
+
+opt.showmode = false
