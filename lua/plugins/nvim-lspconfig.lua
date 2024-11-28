@@ -22,24 +22,19 @@ return {
   config = function ()
     require('mason').setup()
     require('mason-lspconfig').setup({
-      -- Update this list to the language servers you need installed
       ensure_installed = {
-        -- "bashls", -- requires npm to be installed
-        "cssls", -- requires npm to be installed
         "clangd",
-        "tailwindcss",
-        "html", -- requires npm to be installed
-        "gradle_ls",
-        "groovyls",
+        "cssls",
+        "eslint_d",
+        "html",
+        "jsonls",
         "lua_ls",
-        -- "intelephense", -- requires npm to be installed
-        "jsonls", -- requires npm to be installed
-        "lemminx",
-        "marksman",
-        "quick_lint_js",
-        "tsserver", -- requires npm to be installed
-        -- "yamlls", -- requires npm to be installed
-        "pylsp"
+        "prettier",
+        "prettierd",
+        "pylsp",
+        "stylua",
+        "tailwindcss",
+        "tsserver",
       }
     })
 
