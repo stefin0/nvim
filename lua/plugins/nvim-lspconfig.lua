@@ -26,6 +26,7 @@ return {
       ensure_installed = {
         -- "bashls", -- requires npm to be installed
         "cssls", -- requires npm to be installed
+        "clangd",
         "tailwindcss",
         "html", -- requires npm to be installed
         "gradle_ls",
