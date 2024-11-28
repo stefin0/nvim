@@ -25,14 +25,10 @@ return {
       ensure_installed = {
         "clangd",
         "cssls",
-        "eslint_d",
         "html",
         "jsonls",
         "lua_ls",
-        "prettier",
-        "prettierd",
         "pylsp",
-        "stylua",
         "tailwindcss",
         "tsserver",
       }
