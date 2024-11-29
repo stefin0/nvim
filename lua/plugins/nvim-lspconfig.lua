@@ -30,7 +30,7 @@ return {
         "lua_ls",
         "pylsp",
         "tailwindcss",
-        "tsserver",
+        "ts_ls",
       }
     })
 
