@@ -62,5 +62,6 @@ return {
       },
     })
     lspconfig.clangd.setup({ autostart = true })
+    lspconfig.pylsp.setup({ autostart = true })
   end,
 }
