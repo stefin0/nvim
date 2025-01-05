@@ -9,3 +9,5 @@ opt.wrap = false
 
 opt.relativenumber = true
 opt.number = true
+
+opt.colorcolumn = "80"
