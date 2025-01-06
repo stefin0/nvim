@@ -17,7 +17,7 @@ return {
       servers = {
         lua_ls = {},
         clangd = {},
-        pylsp = {}
+        pyright = {}
       }
     },
     config = function(_, opts)
